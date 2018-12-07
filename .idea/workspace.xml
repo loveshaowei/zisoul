@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bce932a-b376-4c72-829a-7bbf6305d937" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/RedisKeyConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/config/WechatConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/IdentifyStatusEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/LoginTypeEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/TripStatusEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/UserStatusEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/UserLoginRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/UserLoginResponseVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/base/dto/ResultJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/HomestayGuestRelation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuGuest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuHomestay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuUsers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/common/UserLoginResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/HomestayGuestRelationDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuConfigDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuGuestDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuHomestayDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuUsersDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/BaseRequestComon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/BaseRequestParam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/GuestDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/HomestayDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/PubRequestCommon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/UserDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/redis/RedisTemplateService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IHomestayGuestRelationService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IUserKeyService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuConfigService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuGuestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuHomestayService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuUsersService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/HomestayGuestRelationServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuConfigServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuGuestServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuHomestayService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuUsersServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/token/AccessTokenBiz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/token/AccessTokenBizImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/AESCipherUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/DateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/EmojiUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ExcellVO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/KeyWordFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/SensitiveWordUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ThreadTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/WxBizDataCrypt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ZhisuEmailSendUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/resources/keywords.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ZhisuConfigMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ZhisuGuestMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ZhisuHomestayMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ZhisuUsersMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/guest/ZhisuGuestController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/merchant/ZhisuMerchantController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-web/src/main/resources/keywords.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhisu-web/src/main/test/com/zhisu/Cg.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/exception/DishesException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/exception/SetMealException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/exception/ShopException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/ucloud/UCloudUploadToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/ucloud/UcloudConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/LocalRun.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/BrandGroupRelationDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/BrandShopDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/CshopConfigDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/CshopInviteActivityDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/CshopInviteDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/CshopInviteInfoDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/CshopRefundDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/CshopRefundDescDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/GoodsChannelDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/GoodsChannelRelationDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/GoodsDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/GoodsGroupDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/GoodsRelationDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/GoodsStockDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/GoodsUnitDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/OrderCartDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/OrderDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/OrderDetailDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/OrderTypeDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/ShopDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/ShopRelationDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/dao/UserPropertiesDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/BrandGroupRelationServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/BrandShopServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/CartServiceIpml.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/ConfigServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/CshopRefundService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/DishesService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/GOrderIdGenerateServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/GoodStockServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/GoodsChannelServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/GoodsGroupServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/GoodsRelationService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/GoodsServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/GoodsUnitService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/InviteActivityReadServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/InviteActivityWriteServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/OrderDetailServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/OrderServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/OrderTypeServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/SetMealService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/ShopRelationServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/ShopServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/StockServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/UserPropertiesServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/refund/AllOrderRefund.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/refund/Approve.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/refund/PartFeeRefund.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/refund/PartProductRefund.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/zhisu/center/service/impl/refund/RefundWrapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/consumer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/BrandGroupRelationMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/BrandShopMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/CshopConfigMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/CshopInviteActivityMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/CshopInviteInfoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/CshopInviteMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/CshopRefundDescMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/CshopRefundMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/GoodsChannelMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/GoodsChannelRelationMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/GoodsGroupMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/GoodsMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/GoodsRelationMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/GoodsStockMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/GoodsUnitMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/OrderCartMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/OrderDetailMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/OrderMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/OrderTypeMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ShopMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ShopRelationMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/test/java/com/zhisu/zhisu/center/AppTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/test/java/com/zhisu/zhisu/center/TestApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-service/src/test/java/com/zhisu/zhisu/center/TestMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/RedisConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/activity/InviteActivityController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/cart/CartController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/config/ConfigController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/CshopGoodsContrller.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/CshopGoodsGroupController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/FreshGoodsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/FreshGoodsGroupController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/GoodsChannelController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/ManageGoodsChannelController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/ManageGoodsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/ManageGoodsGroupController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/ManageOrderController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/ManagerSetMealController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/goods/ShopManagerControllerManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/order/OrderController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/shop/BrandShopController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/shop/ShopController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/mq/consumer/MQTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/mq/consumer/ModifyUserConsumer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/testcontroller/ExportExcel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/vo/ProductVo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/stock/SellOutStockController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/resources/mpay.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/test/com/missfresh/cshop/Import.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhisu-common/pom.xml" afterPath="$PROJECT_DIR$/zhisu-common/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhisu-service/pom.xml" afterPath="$PROJECT_DIR$/zhisu-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/database-config.properties" afterPath="$PROJECT_DIR$/zhisu-service/src/main/resources/database-config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhisu-web/pom.xml" afterPath="$PROJECT_DIR$/zhisu-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhisu-web/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/zhisu-web/src/main/resources/application-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhisu-web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/zhisu-web/src/main/resources/application.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/App.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/App.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/AesCiperTokenUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/AesCiperTokenUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/AsUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/AsUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/Base64.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/Base64.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/CipherTextUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/CipherTextUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/CommonPageVo.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/CommonPageVo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/Constant.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/Constant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/DateUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/DateUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/DigestUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/DigestUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/GenerateOrderNoWorker.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/GenerateOrderNoWorker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/HttpClientUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/HttpClientUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/HttpUtils.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/HttpUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/InetAddressUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/InetAddressUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/NamedThreadFactory.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/NamedThreadFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/OrderNoGenerator.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/OrderNoGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/Page.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/Page.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/SKUUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/SKUUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/Safes.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/Safes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/StringUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/StringUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/TranscodeUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/TranscodeUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/WechatCertHttpClientBuilder.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/WechatCertHttpClientBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/XmlJSON.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/XmlJSON.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/context/AppContext.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/context/AppContext.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/ucloud/RequestDigest.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/ucloud/RequestDigest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/ucloud/UCloudRequest.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/ucloud/UCloudRequest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/ucloud/ULBUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/ucloud/ULBUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/ucloud/ULBUtilNew.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/ucloud/ULBUtilNew.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/common/ucloud/UcloudUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/ucloud/UcloudUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/exception/CShopException.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/exception/ZhiSuException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/result/CommonVo.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/CommonVo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/result/ResultType.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/ResultType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/AESUtils.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/AESUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/BuryingPoint.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/BuryingPoint.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/DateUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/DateUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/DistanceUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/DistanceUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/MD5.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/MD5.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/Money.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/Money.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/RedisUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/RedisUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/SHA1.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/SHA1.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/SignUtils.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/SignUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/main/java/com/missfresh/cshop/utils/StringUtil.java" afterPath="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/StringUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/test/java/com/missfresh/cshop/common/AppTest.java" afterPath="$PROJECT_DIR$/zhisu-common/src/test/java/com/zhisu/zhisu/common/AppTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-common/src/test/java/com/missfresh/cshop/common/TestApplication.java" afterPath="$PROJECT_DIR$/zhisu-common/src/test/java/com/zhisu/zhisu/common/TestApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/java/com/missfresh/cshop/center/service/impl/UserKeyServiceImpl.java" afterPath="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/UserKeyServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/UserPropertiesMapper.xml" afterPath="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/HomestayGuestRelationMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-service/src/test/java/com/missfresh/cshop/AppTest.java" afterPath="$PROJECT_DIR$/zhisu-service/src/test/java/com/zhisu/zhisu/AppTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/Application.java" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/Application.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/CorsConfig.java" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/CorsConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/JacksonConfig.java" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/JacksonConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/common/exceptions/MissFreshExceptionResolver.java" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/common/exceptions/MissFreshExceptionResolver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/BaseAction.java" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/BaseAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/file/UploadFileController.java" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/file/UploadFileController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zhisu-web/src/main/java/com/missfresh/cshop/controller/user/UserController.java" afterPath="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/user/UserController.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cshop-center-api/target/" />
+    <ignored path="$PROJECT_DIR$/cshop-center/target/" />
+    <ignored path="$PROJECT_DIR$/cshop-common/target/" />
+    <ignored path="$PROJECT_DIR$/cshop-web/target/" />
+    <ignored path="$PROJECT_DIR$/zhisu-web/target/" />
+    <ignored path="$PROJECT_DIR$/zhisu-common/target/" />
+    <ignored path="$PROJECT_DIR$/zhisu-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="zhisu" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ZhisuEmailSendUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ZhisuEmailSendUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZhisuGuestServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuGuestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3780">
+              <caret line="130" column="93" lean-forward="false" selection-start-line="130" selection-start-column="93" selection-end-line="130" selection-end-column="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuestDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/GuestDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1068">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZhisuGuest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuGuest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZhisuHomestayService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuHomestayService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+              <folding>
+                <element signature="e#1221#1222#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#4110#4111#0" expanded="true" />
+                <element signature="e#4128#4129#0" expanded="true" />
+                <element signature="e#4200#4201#0" expanded="true" />
+                <element signature="e#4258#4259#0" expanded="true" />
+                <marker date="1544194010888" expanded="true" signature="31:734" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysql.cshop.center.asvip.url</find>
+      <find>cshop-api</find>
+      <find>cshop-esjob</find>
+      <find>updateUserBaseInfo</find>
+      <find>conditions</find>
+      <find>guestRooms</find>
+      <find>cshop</find>
+      <find>mysql.zhisu.database.url</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/zhisu-service" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/UserLoginRequest.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/BaseRequestComon.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/BaseRequestParam.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/PubRequestCommon.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuHomestay.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/ZhisuHomestay.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/exception/ZhiSuException.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/base/dto/ResultJson.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IHomestayGuestRelationService.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/HomestayGuestRelationDao.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/HomestayGuestRelationMapper.xml" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ZhisuGuestMapper.xml" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuGuestDao.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/utils/DateUtil.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/Constant.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuGuestService.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuGuestService.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/HomestayGuestRelationService.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/HomestayGuestRelationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/Application.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/BaseRequestComon.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/PubRequestCommon.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/BaseRequestParam.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/HomestayDto.java" />
+        <option value="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/guest/ZhisuGuestController.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/GuestDto.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuHomestayService.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ZhisuHomestayMapper.xml" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuHomestayDao.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/UserDto.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/AESCipherUtil.java" />
+        <option value="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/merchant/ZhisuMerchantController.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/SensitiveWordUtils.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/KeyWordFilter.java" />
+        <option value="$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/zhisu-web/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/zhisu-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/DateUtil.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ExcellExportService.java" />
+        <option value="$PROJECT_DIR$/zhisu-web/src/test/java/com/Cg.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuConfigService.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/TripStatusEnum.java" />
+        <option value="$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/IdentifyStatusEnum.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuConfigService.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuConfigServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuGuest.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ZhisuEmailSendUtils.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuHomestayService.java" />
+        <option value="$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuGuestServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="zhisu-web" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="zhisu-web" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zhisu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/zhisu/zhisu-web/src/main/java/com/zhisu/zhisu/controller/merchant/ZhisuMerchantController.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="E:/fendiandian/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhisu.zhisu.enums" />
+      <recent name="com.zhisu.utils" />
+      <recent name="com.zhisu.dto" />
+      <recent name="com.zhisu.zhisu.controller.guest" />
+      <recent name="com.zhisu.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\zhisu\zhisu-service\src\main\java\com\zhisu\service\impl" />
+      <recent name="E:\project\zhisu\zhisu-service\src\main\java\com\zhisu\service" />
+      <recent name="E:\project\zhisu\zhisu-service\src\main\resources\mapper" />
+      <recent name="E:\project\zhisu\zhisu-service\src\main\java\com\zhisu\dao" />
+      <recent name="E:\project\zhisu\zhisu-service\src\main\java\com\zhisu\bean" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ZhisuEmailSendUtils">
+    <configuration default="false" name="Cg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.Cg" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zhisu-web" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DateUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zhisu.zhisu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zhisu.zhisu.utils.DateUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zhisu-common" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="KeyWordFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zhisu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zhisu.utils.KeyWordFilter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cshop-api" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zhisu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zhisu.utils.ThreadTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cshop-api" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ZhisuEmailSendUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zhisu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zhisu.utils.ZhisuEmailSendUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cshop-api" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cshop-api" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhisu.zhisu.Application" />
+      <module name="zhisu-web" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Cg" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DateUtil" />
+      <item index="3" class="java.lang.String" itemvalue="Application.KeyWordFilter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ThreadTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ZhisuEmailSendUtils" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.ZhisuEmailSendUtils" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Cg" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ThreadTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.KeyWordFilter" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DateUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bce932a-b376-4c72-829a-7bbf6305d937" name="Default" comment="" />
+      <created>1541774963587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541774963587</updated>
+      <workItem from="1541774965320" duration="28804000" />
+      <workItem from="1542381109748" duration="667000" />
+      <workItem from="1542421280070" duration="5878000" />
+      <workItem from="1542466404282" duration="13580000" />
+      <workItem from="1542678782914" duration="3038000" />
+      <workItem from="1542765077183" duration="8635000" />
+      <workItem from="1542851870711" duration="8669000" />
+      <workItem from="1542938598542" duration="632000" />
+      <workItem from="1542978372950" duration="5215000" />
+      <workItem from="1543028209780" duration="2267000" />
+      <workItem from="1543195815611" duration="1429000" />
+      <workItem from="1543284426111" duration="4362000" />
+      <workItem from="1543334059619" duration="29000" />
+      <workItem from="1543334266749" duration="893000" />
+      <workItem from="1543636023085" duration="11524000" />
+      <workItem from="1543851713797" duration="54000" />
+      <workItem from="1543851841709" duration="39000" />
+      <workItem from="1543852024727" duration="744000" />
+      <workItem from="1544189538000" duration="2323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="98782000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11856223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28235295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.051764704" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13680257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuHomestayService.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuHomestayService.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/HomestayGuestRelationServiceImpl.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/HomestayGuestRelationServiceImpl.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ZhisuEmailSendUtils.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ZhisuEmailSendUtils.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ZhisuEmailSendUtils.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuHomestayDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="32" column="52" lean-forward="false" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ZhisuHomestayMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuHomestayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuUsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="74" column="30" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/AESCipherUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="104" column="80" lean-forward="false" selection-start-line="104" selection-start-column="73" selection-end-line="104" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/HomestayGuestRelationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/result/UserLoginResponseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/token/AccessTokenBizImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/function/Supplier.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/concurrent/Executors.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/concurrent/CompletableFuture.java" />
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-web/src/main/resources/keywords.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="236" column="12" lean-forward="true" selection-start-line="236" selection-start-column="12" selection-end-line="236" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/KeyWordFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="74" column="53" lean-forward="false" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/merchant/ZhisuMerchantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="169" column="16" lean-forward="false" selection-start-line="169" selection-start-column="16" selection-end-line="169" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-web/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/file/UploadFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/resources/keywords.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="594" column="18" lean-forward="false" selection-start-line="594" selection-start-column="18" selection-end-line="594" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-web/src/main/java/com/zhisu/zhisu/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/SensitiveWordUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="166" column="36" lean-forward="false" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1950">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar!/javax/mail/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="353" column="26" lean-forward="false" selection-start-line="353" selection-start-column="26" selection-end-line="353" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar!/javax/mail/internet/InternetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar!/javax/mail/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="219" column="38" lean-forward="false" selection-start-line="219" selection-start-column="38" selection-end-line="219" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/common/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4740">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar!/javax/mail/internet/MimeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="577" column="16" lean-forward="false" selection-start-line="577" selection-start-column="16" selection-end-line="577" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar!/javax/mail/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="194" column="16" lean-forward="false" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuHomestay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ExcellVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/resources/mapper/ZhisuConfigMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2970">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuGuestDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/common/UserLoginResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/LoginTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/UserStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/TripStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-common/src/main/java/com/zhisu/zhisu/enums/IdentifyStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-web/src/test/java/com/Cg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="148" column="59" lean-forward="true" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dao/ZhisuConfigDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuConfigServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IUserKeyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/IZhisuConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/bean/ZhisuGuest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/utils/ZhisuEmailSendUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuHomestayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#4110#4111#0" expanded="true" />
+            <element signature="e#4128#4129#0" expanded="true" />
+            <element signature="e#4200#4201#0" expanded="true" />
+            <element signature="e#4258#4259#0" expanded="true" />
+            <marker date="1544194010888" expanded="true" signature="31:734" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/dto/GuestDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1068">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhisu-service/src/main/java/com/zhisu/service/impl/ZhisuGuestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3780">
+          <caret line="130" column="93" lean-forward="false" selection-start-line="130" selection-start-column="93" selection-end-line="130" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

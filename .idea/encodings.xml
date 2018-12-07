@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cshop-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cshop-center-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cshop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cshop-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhisu-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhisu-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhisu-web" charset="UTF-8" />
+  </component>
+</project>

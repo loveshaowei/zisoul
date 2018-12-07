@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zhisu-service/cshop-api.iml" filepath="$PROJECT_DIR$/zhisu-service/cshop-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhisu-common/zhisu-common.iml" filepath="$PROJECT_DIR$/zhisu-common/zhisu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhisu-web/zhisu-web.iml" filepath="$PROJECT_DIR$/zhisu-web/zhisu-web.iml" />
+    </modules>
+  </component>
+</project>

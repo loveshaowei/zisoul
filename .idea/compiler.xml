@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cshop-api" />
+        <module name="zhisu-common" />
+        <module name="zhisu-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cshop-api" target="1.8" />
+      <module name="cshop-center-api" target="1.8" />
+      <module name="cshop-common" target="1.8" />
+      <module name="zhisu-common" target="1.8" />
+      <module name="zhisu-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
